@@ -1,7 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;netstandard1.3;netstandard1.0;net35</TargetFrameworks>
+    <Authors>bleatingsheep</Authors>
+    <Description>osu! user name helpers.</Description>
+    <Copyright>bleatingsheep</Copyright>
+    <PackageTags>osu</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
+    <DocumentationFile>Bleatingsheep.Osu.Helper.xml</DocumentationFile>
   </PropertyGroup>
 
 </Project>
