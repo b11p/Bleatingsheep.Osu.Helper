@@ -6,6 +6,8 @@
     <Description>osu! user name helpers.</Description>
     <Copyright>bleatingsheep</Copyright>
     <PackageTags>osu</PackageTags>
+    <PackageProjectUrl>https://github.com/bltsheep/Bleatingsheep.Osu.Helper/tree/master</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/bltsheep/Bleatingsheep.Osu.Helper/blob/master/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
